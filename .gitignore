@@ -1,47 +1,44 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+*.py[co]
 
-# Folder config file
-Desktop.ini
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Installer logs
+pip-log.txt
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Unit test / coverage reports
+.coverage
+.tox
 
-# Windows shortcuts
-*.lnk
+# Translations
+*.mo
 
-# =========================
-# Operating System Files
-# =========================
+#Mr Developer
+.mr.developer.cfg
 
-# OSX
-# =========================
+# Doc
+_build
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# Text Editor Backupfile
+*~
 
-# Thumbnails
-._*
+# Intellij IDE
+.idea
+*.xml
+*.iml
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# Nose
+.noseids
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Pyenv
+.python-version
